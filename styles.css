@@ -94,7 +94,7 @@ h1 {
   margin-bottom: 13px;
 }
 .main_img img {
-  width: 960px;
+  width: 100%;
 }
 
 
@@ -113,21 +113,15 @@ section {
   margin: 0 12px 20px;
   padding: 12px 7px 25px;
 }
-menus:not(:first-child) {
-  margin: 0 0 0 25px;
-}
 menus {
+  width: 19%;
   display: inline-block;
   text-align: center;
-}
-menus img {
-  display: block;
-  margin: 0 auto;
+  box-sizing: border-box;
 }
 .menu_p {
   font-size: 60%;
   margin: 0;
-  text-align: center;
 }
 .category_1 {
   background-color: white;
