@@ -188,14 +188,13 @@ menus {
 }
 aside {
   flex: 1
-  margin-top: 19px;
 }
 aside a {
   display: block;
   margin-bottom: 20px;
-}
-aside img {
-  display: block;
+  width: 154px;
+  height: 351px;
+  background: #ffffff;
 }
 footer {
   background-color: white;
